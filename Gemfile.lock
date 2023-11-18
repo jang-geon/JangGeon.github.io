@@ -40,6 +40,8 @@ GEM
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
+    faraday-retry (2.2.0)
+      faraday (~> 2.0)
     ffi (1.16.3)
     ffi (1.16.3-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
@@ -264,6 +266,7 @@ GEM
     unf_ext (0.0.9.1)
     unf_ext (0.0.9.1-x64-mingw-ucrt)
     unicode-display_width (1.8.0)
+    webrick (1.8.1)
 
 PLATFORMS
   x64-mingw-ucrt
@@ -271,9 +274,11 @@ PLATFORMS
 
 DEPENDENCIES
   dotenv
+  faraday-retry
   github-pages
   jekyll
   jekyll-github-metadata
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.3.14

@@ -5,3 +5,5 @@ gem "github-pages"
 gem "jekyll"
 gem "jekyll-github-metadata"
 gem 'faraday-retry'
+
+gem "webrick", "~> 1.8"
