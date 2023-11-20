@@ -17,45 +17,50 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: airbnb
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
+- title: 군산대학교
+  title-url: https://www.kunsan.ac.kr
+  date: 2019 - 현재
+  subtitle: Junior Developer
   tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
-  timeline-side: right
-
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
-  tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
-  timeline-side: right
-
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
+    - tag: Java
+    - tag: C
+    - tag: C++
   timeline-side: left
 
-- title: Facebook
+- title: 예정
   title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
+  date: 2024 - 2026
+  subtitle: Front-End Developer
   tags:
+    - tag: JavaScript
+    - tag: CSS
+    - tag: TypeScript
     - tag: React
-    - tag: Node
-    - tag: Javascript
   timeline-side: right
 
-- title: Super University
+- title: 예정
   title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
+  date: 2026 - 2028
+  subtitle: Junior Developer
+  tags:
+    - tag: DevOps
+    - tag: AWS
+    - tag: Docker
+  timeline-side: left
+
+- title: 예정
+  title-url: https://example.com/
+  date: 2028 - 2030
+  subtitle: Full-Stack Developer
+  tags:
+    - tag: DBMS
+    - tag: Node.js
+    - tag: Cloud-Computing
+    - tag: Design Pattern
+  timeline-side: right
+
+- title: 예정
+  title-url: https://example.com/
+  date: 2030 - Future
+  subtitle: Senior Developer
   timeline-side: left
