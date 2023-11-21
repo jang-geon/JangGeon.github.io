@@ -2,7 +2,7 @@
 # bundle exec jekyll serve --livereload --future
 # GENERAL SITE SETTINGS
 # title: This will be displayed as the website's name in your browser tab.
-title: 장건의 블로그
+title: 장건의 포토폴리오
 # description: This will be meta HTML tag content. This can be ignored.
 description: Personal website powered by Jekyll
 # baseurl: The subpath of your site
