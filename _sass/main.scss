@@ -13,14 +13,10 @@ $font-family-numbers: "Josefin Sans", sans-serif;
 $font-size-base: 1rem !default;
 $font-size-h1: 2rem !default;
 $font-weight-strong: 600;
-$text-color: #fff !default;
-$bg-color: rgba(43, 45, 47, 1);
-$card-bg-color: linear-gradient(
-  145deg,
-  rgba(115, 115, 115, 0.15) 15%,
-  rgba(43, 45, 47, 1) 80%
-);
-$primary-color: #ff073a;
+$text-color: #EEEEEE !default;
+$bg-color: #222831;
+$card-bg-color: #393E46;
+$primary-color: #00ADB5;
 
 /* General */
 
@@ -62,7 +58,7 @@ a {
 .highlight-title {
   color: $primary-color;
   color: $primary-color;
-  text-shadow: 0.25rem 0.25rem 0.25rem $primary-color;
+  //text-shadow: 0.25rem 0.25rem 0.25rem $primary-color;
 }
 
 .highlight-link {
@@ -89,7 +85,8 @@ a {
 
 .layout .card {
   background: $card-bg-color;
-  border-radius: 2rem;
+  border-style: ridge;
+  border-radius: 1rem;
   margin: 3rem 0;
   padding: 1rem 2rem;
 }
@@ -108,33 +105,23 @@ a {
 }
 
 .neumorphism-button {
-  background: linear-gradient(
-    145deg,
-    rgba(100, 100, 105, 0.15) 15%,
-    rgba(33, 33, 33, 0.4) 80%
-  );
-  box-shadow: -4px -3px 2px 0 rgba(250, 250, 250, 0.13),
-    4px 4px 2px 0 rgba(0, 0, 0, 0.4);
+  background: $card-bg-color;
+  border-style: solid;
+  border-radius: 1rem;
 }
 
 @mixin neumorphism-button-pressed {
-  background: linear-gradient(
-    150deg,
-    rgba(20, 20, 20, 0.4) 10%,
-    rgba(115, 115, 115, 0.15) 80%
-  );
-  box-shadow: 1px 1px 2px 0 rgba(210, 210, 210, 0.4),
-    -1px -1px 2px rgba(0, 0, 0, 0.4), inset 3px 3px 2px 0 rgba(0, 0, 0, 0.4),
-    inset -1px -2px 2px rgba(210, 210, 210, 0.4);
+  background: $bg-color;
 }
 
 .neumorphism-card {
-  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 1),
-    inset -2px -2px 4px rgba(99, 99, 99, 1);
+  box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+//   box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 1),
+//   inset -2px -2px 4px rgba(99, 99, 99, 1);
 }
 
 .neumorphism-card-big {
-  box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346;
+  //box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346;
 }
 
 /* Preloader */
@@ -598,6 +585,14 @@ a {
   padding: 0.5rem;
 }
 
+.project  {
+  border-radius: 1rem;
+  display: inline-block;
+  margin-bottom: 0.25rem;
+  padding: 0.5rem;
+  background-color: $bg-color;
+}
+
 /* Contact Card */
 
 .contact-icons {
@@ -712,7 +707,7 @@ a {
       margin: 0 0.5rem 1rem;
       padding: 0.5rem 0.25rem;
       text-align: center;
-      width: 21%;
+      width: 17%;
 
       &:hover {
         letter-spacing: 0.25rem;
@@ -844,7 +839,7 @@ a {
   }
 
   #skills .filter-button {
-    width: 21.5%;
+    width: 20%;
   }
 
   .timeline-wrapper {
@@ -874,7 +869,7 @@ a {
   }
 
   #skills .filter-button {
-    width: 22%;
+    width: 20%;
   }
 
   .timeline-wrapper {
